@@ -12,9 +12,5 @@ public class Zoo {
 		c1.sleep();
 		c1.speak();
 		
-		Squirrel s1 = new Squirrel();
-		s1.eat();
-		s1.sleep();
-		s1.speak();
 	}
 }
