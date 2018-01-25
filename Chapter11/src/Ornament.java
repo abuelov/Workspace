@@ -23,8 +23,7 @@ public class Ornament {
 	public void drawOrnament(Graphics g) {
 		
 		g.setColor(color);
-		g.fillOval((int)Math.random()*xpos)-50),(int)((Math.random()*yPos)+80), 10, 10);
-		System.out.println(color);
+		g.fillOval(xpos, ypos, 10, 10);
 		
 		
 		
